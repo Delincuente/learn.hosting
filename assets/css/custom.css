@@ -1,13 +1,13 @@
 .header-top-custom {
-    background: linear-gradient(90deg, 
-    rgb(111,63,149) 0%, 
-    rgb(196,47,132) 12.5%, 
-    rgb(233,45,52) 25%, 
-    rgb(248,152,46) 37.5%, 
-    rgb(243,234,35) 50%, 
-    rgb(42,172,85) 62.5%, 
-    rgb(19,161,198) 75%, 
-    rgb(58,69,151) 87.5%);
+    background: linear-gradient(90deg,
+            rgb(111, 63, 149) 0%,
+            rgb(196, 47, 132) 12.5%,
+            rgb(233, 45, 52) 25%,
+            rgb(248, 152, 46) 37.5%,
+            rgb(243, 234, 35) 50%,
+            rgb(42, 172, 85) 62.5%,
+            rgb(19, 161, 198) 75%,
+            rgb(58, 69, 151) 87.5%);
 }
 
 .event-area-custom {
@@ -36,9 +36,14 @@
     color: #0c8b51;
 }
 
-.content-area-padding-custom{
+.content-area-padding-custom {
     padding-top: 80px;
 }
-.duration-rating-custom{
-    top:20px;
+
+.duration-rating-custom {
+    top: 20px;
+}
+
+.whatsapp-icon {
+    bottom: 50px;
 }

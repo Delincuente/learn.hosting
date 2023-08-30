@@ -31,6 +31,8 @@
     <!--====== Main Style CSS ======-->
     <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
 
 </head>
 
@@ -39,7 +41,7 @@
     <!--====== Header Start ======-->
 
     <header class="header-area">
-        <div class="header-top">
+        <div class="header-top header-top-custom">
             <div class="container">
                 <div class="header-top-wrapper d-flex flex-wrap justify-content-sm-between">
                     <div class="header-top-left mt-10">
@@ -47,14 +49,6 @@
                             <li><a href="mailto://infoedumate@example.com">maruticolors89@gmail.com</a></li>
                         </ul>
                     </div>
-
-                    <!-- <div class="header-top-right mt-10">
-                        <div class="header-link">
-                            <a class="notice" href#Notice</a>
-                            <a class="login" href#Login</a>
-                            <a class="register" #">Register</a>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -64,8 +58,10 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3">
                         <div class="header-logo">
-                            <a href="index.html"><img src="assets/images/logo.png" width="135" height="88"
-                                    alt="Logo"></a>
+                            <a href="index.html" style="display: flex; align-items: center;">
+                                <img src="assets/images/logo.png" width="135" height="88" alt="Logo">
+                                <h4 style="margin-left: 10px; margin-bottom: 0;">Maruti Chemical</h4>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-7 position-static">
@@ -73,47 +69,12 @@
                         <nav class="nav-menus-wrapper">
                             <ul class="nav-menu">
                                 <li><a class="active" href="index.html">Home</a>
-                                    <li>
-                                    <a href="#">Products</a>
-                                    <!-- <ul class="nav-dropdown nav-submenu">
-                                        <li>
-                                            <a href="#">Courses Grid</a>
-                                            <ul class="nav-dropdown nav-submenu">
-                                                <li><a href="#">Courses 01</a></li>
-                                                <li><a href="#">Courses 02</a></li>
-                                                <li><a href="#">Courses 03</a></li>
-                                                <li><a href="#">Courses Left Sidebar</a>
-                                                </li>
-                                                <li><a href="#">Courses Right Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Courses</a>
-                                            <ul class="nav-dropdown nav-submenu">
-                                                <li><a href="#">Courses List</a></li>
-                                                <li><a href="#">Courses List Left
-                                                        Sidebar </a></li>
-                                                <li><a href="#">Courses List Right
-                                                        Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Courses Details</a></li>
-                                    </ul> -->
-                                </li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">FAQs</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="our-product-list.html">Products</a></li>
+                                <li><a href="about-us.html">About us</a></li>
+                                <li><a href="">FAQs</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
-                    </div>
-                    <div class="col-lg-2 position-static">
-                        <div class="header-search">
-                            <form action="#">
-                                <input type="text" placeholder="Search">
-                                <button><i class="fas fa-search"></i></button>
-                            </form>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -131,8 +92,8 @@
                 <div class="slider-content">
                     <h2 class="title" data-animation="fadeInLeft" data-delay="0.2s">Tag Lines</h2>
                     <ul class="slider-btn">
-                        <li><a data-animation="fadeInUp" data-delay="0.6s" class="main-btn main-btn-2"
-                                href="#">View Product</a></li>
+                        <li><a data-animation="fadeInUp" data-delay="0.6s" class="main-btn main-btn-2" href="#">View
+                                Product</a></li>
                     </ul>
                 </div>
             </div>
@@ -143,8 +104,8 @@
                 <div class="slider-content">
                     <h2 class="title" data-animation="fadeInLeft" data-delay="0.2s">Tag Lines</h2>
                     <ul class="slider-btn">
-                        <li><a data-animation="fadeInUp" data-delay="0.6s" class="main-btn main-btn-2"
-                                href="#">View Product</a></li>
+                        <li><a data-animation="fadeInUp" data-delay="0.6s" class="main-btn main-btn-2" href="#">View
+                                Product</a></li>
                     </ul>
                 </div>
             </div>
@@ -491,153 +452,65 @@
 
     <!--====== Campus Visit Ends ======-->
 
-    <!--====== Event Start ======-->
+    <!-- ====== Event Start ======-->
 
-    <!-- <section class="event-area">
+    <section class="event-area event-area-custom">
         <div class="container">
             <div class="event-title-tab-menu">
-                <div class="event-title mt-40">
-                    <h2 class="title">Up Coming <br> Events</h2>
-                </div>
-
-                <div class="event-tab-menu mt-40">
-                    <ul class="nav">
-                        <li><a class="active" data-bs-toggle="tab" href="#courses">Courses</a></li>
-                        <li><a data-bs-toggle="tab" href="#admission">Admission</a></li>
-                        <li><a data-bs-toggle="tab" href="#training">Training</a></li>
-                    </ul>
+                <div class="event-title mt-25">
+                    <div class="banner-content banner-content-custom align-items-center">
+                        <h2 class="title title-custom"><span>Our</span> Values</h2>
+                    </div>
                 </div>
             </div>
             <div class="tab-content event-tab-items wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
                 <div class="tab-pane fade show active" id="courses">
                     <div class="row">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-event text-center mt-30" style="height: 370px;">
+
+                                <h4 class="event-title"><a href="#">Quality</a></h4>
+                                <p class="place">Maruti Color & Chemical, we prioritize unwavering quality standards.
+                                    Our commitment to delivering premium-grade chemicals ensures reliability and
+                                    satisfaction for our clients worldwide. With a stringent focus on quality control,
+                                    we consistently provide chemicals that meet and exceed industry benchmarks.</p>
+
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-event text-center mt-30" style="height: 370px;">
+                                <h4 class="event-title"><a href="#">Innovation</a></h4>
+                                <p class="place">Our relentless pursuit of innovation fuels our commitment to shaping a
+                                    dynamic chemical landscape. We drive transformative solutions, anticipating industry
+                                    needs to redefine standards and unlock new possibilities. At the forefront of
+                                    change, we challenge conventions, revolutionize processes, and forge the future of
+                                    chemicals.</p>
+
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="admission">
-                    <div class="row">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-event text-center mt-30" style="height: 370px;">
+
+                                <h4 class="event-title"><a href="#"> Sustainable</a></h4>
+                                <p class="place">We prioritize environmental responsibility and innovative practices,
+                                    ensuring that our chemical solutions contribute to a greener future while meeting
+                                    the evolving needs of industries worldwide.</p>
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="training">
                     <div class="row">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="single-event text-center mt-30">
-                                <span class="time">10.35 am to 1.00 pm</span>
-                                <span class="date">25 May, 2020</span>
-                                <h4 class="event-title"><a href="#">Micro Biological Workshop</a></h4>
-                                <p class="place">Place: Central Hall, New York</p>
-                                <a href="#" class="more">Read more <i class="far fa-chevron-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="view-btn text-center">
-                    <a href="#" class="view-more">View More <i class="fas fa-chevron-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section><br><br><br><br>
 
-    <!--====== Event Ends ======-->
+
+    <!--====== Event Ends ====== -->
 
     <!--====== Testimonials Start ======-->
 
@@ -873,26 +746,20 @@
 
     <!--====== Newsletter Ends ======-->
 
-    <!--====== Footer Start ======-->
+     <!--====== Footer Start ======-->
 
-    <section class="footer-area bg_cover" style="background-image: url(assets/images/counter-bg.png);">
+     <section class="footer-area bg_cover" style="background-image: url(assets/images/counter-bg.png);">
         <div class="footer-widget">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="footer-link mt-45">
-                            <h4 class="footer-title">Our Campus</h4>
-                            <ul class="link-list">
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="footer-link mt-45">
                             <h4 class="footer-title">Useful Link</h4>
                             <ul class="link-list">
-                                <li><a href="#">All Courses</a></li>
+                                <li><a href="javascript:void(0)">Contact Us</a></li>
+                                <li><a href="our-product-list.html">Products</a></li>
                                 <li><a href="#">FAQs</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -907,23 +774,58 @@
                                     <p><a href="tel:+91 87995 52145">+91 87995 52145 </a></p>
                                 </li>
                                 <li>
-                                    <p><a href="mailto://info@example.com">maruticolors89@gmail.com</a></p>
+                                    <p><a href="mailto://maruticolors89@gmail.com">maruticolors89@gmail.com</a></p>
                                     <p><a href="#">www.example.com</a></p>
                                 </li>
                             </ul>
                         </div>
                     </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="footer-link mt-45 ml-30">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5051985985197!2d72.8645102!3d21.211806300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f0f7406b36f%3A0xb253a1e08cbd2ed9!2sSiddhipark%20Society!5e0!3m2!1sen!2sin!4v1693336959517!5m2!1sen!2sin"
+                                width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="footer-widget-wrapper">
+                        <div class="footer-social">
+                            <ul class="social">
+                                <li><a href="https://www.facebook.com/maruticolorandchemical"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://instagram.com/maruti_chemical_export"><i
+                                            class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="copyright text-center">
-                    <p>&copy; 2023 <span> Maruti chemical </span> Made by <a href="#">Delincuente</a></p>
+            <div class="footer-space"></div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="footer-logo">
+                                <!-- <a href="index.html">
+                                <img src="assets/images/logo.png" width="135" height="88" alt="Logo">
+                                <h4 style="display: inline-block; margin-left: 10px; vertical-align: middle;">Maruti Chemical</h4>
+                            </a> -->
+                            </div>
+                        </div>
+                        </div>
+                        </div></div></div>
+                        <div class="footer-copyright">
+                            <div class="container">
+                                <div class="copyright text-center">
+                                    <p>&copy; 2023 <span> Maruti chemical </span> Made by <a href="#">Delincuente</a></p>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
-        </div>
     </section>
+
+
 
     <!--====== Footer Ends ======-->
 
@@ -932,9 +834,6 @@
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!--====== BACK TOP TOP PART ENDS ======-->
-
-
-
 
     <!--====== Jquery js ======-->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>

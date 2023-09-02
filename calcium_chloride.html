@@ -161,7 +161,7 @@
                                     <a data-bs-toggle="tab" href="#reviews">Application</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a data-bs-toggle="tab" href="#download">Download</a>
+                                    <a href="pdf/calcium_chloride.pdf" download="calcium_chloride.pdf"><i class="fa fa-download"></i></a>
                                 </li>
                             </ul>
                             <div class="tab-content">
@@ -268,34 +268,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div id="download" class="tab-pane fade">
-                                    <div class="download-section">
-                                        <div class="product-description">
-                                            <p>
-                                                To download the file, click on the 'Download File' button below. When you click the button, your web browser will prompt you to save the file to your device. Once the download is complete, you can access the file from your device's downloads folder. If you have any issues with the download, please ensure that your browser's download settings are configured correctly.
-                                            </p>
-                                            <ul class="product-list">                                             
-                                                    <p>
-                                                        <a href="pdf/calcium_chloride.pdf" download class="btn btn-primary" id="downloadButton" onclick="startDownload()">Download File</a>
-                                                    </p><br><br>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <script>
-                                    function startDownload() {
-                                        var filePath = 'pdf/calcium_chloride.pdf'; // Change to your actual file path
-                                        var link = document.createElement('a');
-                                        link.href = filePath;
-                                        link.download = filePath.substr(filePath.lastIndexOf('/') + 1);
-                                        link.click();
-                                    }
-                                </script>
-                                
-                                
-                                
+                                </div>    
                             </div>
                         </div>
                     </div>
